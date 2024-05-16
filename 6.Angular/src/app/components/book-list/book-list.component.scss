@@ -1,0 +1,19 @@
+.container {
+    padding: 16px;
+  }
+  
+  .toolbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .search-field {
+    flex-grow: 1;
+  }
+  
+  .mat-form-field {
+    width: 100%;
+  }
+  
