@@ -1,0 +1,42 @@
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\appsettings.json
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\BookingSystem.exe
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\BookingSystem.deps.json
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\BookingSystem.runtimeconfig.json
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\BookingSystem.dll
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\BookingSystem.pdb
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\BookingSystem.csproj.AssemblyReference.cache
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\BookingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\BookingSystem.AssemblyInfoInputs.cache
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\BookingSystem.AssemblyInfo.cs
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\BookingSystem.csproj.CoreCompileInputs.cache
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\BookingSystem.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\BookingSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\staticwebassets\msbuild.BookingSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\staticwebassets\msbuild.build.BookingSystem.props
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BookingSystem.props
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BookingSystem.props
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\scopedcss\bundle\BookingSystem.styles.css
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\BookingSystem.csproj.CopyComplete
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\BookingSystem.dll
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\refint\BookingSystem.dll
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\BookingSystem.pdb
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\BookingSystem.genruntimeconfig.cache
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\obj\Debug\net6.0\ref\BookingSystem.dll
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\6. Angular\frontend\angular.json
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\6. Angular\frontend\package-lock.json
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\6. Angular\frontend\package.json
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\6. Angular\frontend\tsconfig.app.json
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\6. Angular\frontend\tsconfig.json
+C:\Users\idank\OneDrive\שולחן העבודה\BookingSys\BookingSystem\bin\Debug\net6.0\6. Angular\frontend\tsconfig.spec.json
