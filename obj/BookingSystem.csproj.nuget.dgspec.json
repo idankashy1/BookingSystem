@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\idank\\OneDrive\\שולחן העבודה\\BookingSys\\BookingSystem\\BookingSystem.csproj": {}
+    "C:\\Users\\idank\\OneDrive\\שולחן העבודה\\BookingSys\\BookingSystem\\BookingSystem\\BookingSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\idank\\OneDrive\\שולחן העבודה\\BookingSys\\BookingSystem\\BookingSystem.csproj": {
+    "C:\\Users\\idank\\OneDrive\\שולחן העבודה\\BookingSys\\BookingSystem\\BookingSystem\\BookingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\idank\\OneDrive\\שולחן העבודה\\BookingSys\\BookingSystem\\BookingSystem.csproj",
+        "projectUniqueName": "C:\\Users\\idank\\OneDrive\\שולחן העבודה\\BookingSys\\BookingSystem\\BookingSystem\\BookingSystem.csproj",
         "projectName": "BookingSystem",
-        "projectPath": "C:\\Users\\idank\\OneDrive\\שולחן העבודה\\BookingSys\\BookingSystem\\BookingSystem.csproj",
+        "projectPath": "C:\\Users\\idank\\OneDrive\\שולחן העבודה\\BookingSys\\BookingSystem\\BookingSystem\\BookingSystem.csproj",
         "packagesPath": "C:\\Users\\idank\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\idank\\OneDrive\\שולחן העבודה\\BookingSys\\BookingSystem\\obj\\",
+        "outputPath": "C:\\Users\\idank\\OneDrive\\שולחן העבודה\\BookingSys\\BookingSystem\\BookingSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\idank\\AppData\\Roaming\\NuGet\\NuGet.Config",
