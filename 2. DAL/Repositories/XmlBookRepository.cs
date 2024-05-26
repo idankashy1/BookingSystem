@@ -9,17 +9,19 @@ using Microsoft.Extensions.Logging;
 
 namespace BookingSystem._2._DAL.Repositories
 {
+    // מחלקת מאגר נתונים לספרים המבוססת על XML
     public class XmlBookRepository : IBookRepository
     {
         private readonly string _xmlFilePath;
         private readonly ILogger<XmlBookRepository> _logger;
 
+        // בנאי של המחלקה, מקבל הגדרות קונפיגורציה ואובייקט לוגים
         public XmlBookRepository(IConfiguration configuration, ILogger<XmlBookRepository> logger)
         {
             _xmlFilePath = configuration.GetValue<string>("BookData:XmlFilePath");
             _logger = logger;
 
-            // Ensure the XML file exists or initialize it here
+            // בדיקה אם קובץ ה-XML קיים, ואם לא - יצירה והתחלתו עם נתונים ראשוניים
             if (!File.Exists(_xmlFilePath))
             {
                 var initialBooks = new List<Book>
@@ -53,10 +55,11 @@ namespace BookingSystem._2._DAL.Repositories
                         Cover = "paperback"
                     }
                 };
-                SaveBooks(initialBooks);
+                SaveBooks(initialBooks); // שמירת הספרים הראשוניים בקובץ ה-XML
             }
         }
 
+        // פונקציה שמחזירה את כל הספרים מהקובץ
         public IEnumerable<Book> GetAllBooks()
         {
             try
@@ -70,17 +73,19 @@ namespace BookingSystem._2._DAL.Repositories
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error reading from XML file");
+                _logger.LogError(ex, "Error reading from XML file"); // רישום שגיאה בלוג
                 throw;
             }
         }
 
+        // פונקציה שמחזירה ספר לפי ISBN
         public Book GetBookByISBN(string isbn)
         {
             var books = GetAllBooks();
             return books.FirstOrDefault(b => b.ISBN == isbn);
         }
 
+        // פונקציה להוספת ספר חדש לקובץ
         public void AddBook(Book book)
         {
             var books = GetAllBooks().ToList();
@@ -88,6 +93,7 @@ namespace BookingSystem._2._DAL.Repositories
             SaveBooks(books);
         }
 
+        // פונקציה לעדכון ספר קיים לפי ISBN
         public bool UpdateBook(string originalIsbn, Book updatedBook)
         {
             var books = GetAllBooks().ToList();
@@ -103,12 +109,13 @@ namespace BookingSystem._2._DAL.Repositories
                 existingBook.Category = updatedBook.Category;
                 existingBook.Cover = updatedBook.Cover;
 
-                SaveBooks(books);
+                SaveBooks(books); // שמירת השינויים בקובץ ה-XML
                 return true;
             }
             return false;
         }
 
+        // פונקציה למחיקת ספר לפי ISBN
         public bool DeleteBook(string isbn)
         {
             var books = GetAllBooks().ToList();
@@ -116,12 +123,13 @@ namespace BookingSystem._2._DAL.Repositories
             if (bookToDelete != null)
             {
                 books.Remove(bookToDelete);
-                SaveBooks(books);
+                SaveBooks(books); // שמירת השינויים בקובץ ה-XML
                 return true;
             }
             return false;
         }
 
+        // פונקציה לשמירת רשימת ספרים בקובץ ה-XML
         private void SaveBooks(List<Book> books)
         {
             var bookstore = new Bookstore { Books = books };
